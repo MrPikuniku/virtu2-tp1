@@ -105,7 +105,7 @@ k delete deployment/he
 - nom `redis-imp`
 - image `redis`
 ```sh
-__COMMANDE__
+k run redis-imp --image redis             
 ```
 
 ### 3.2 Récupérez la configuration de votre Pod `redis-imp` au format YAML pour pouvoir la sauvegarder dans un fichier `redis-imp.yaml`
